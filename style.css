@@ -1,0 +1,45 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar {
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+/*font color dont work*/
+.navbar-brand {
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
+    margin-right: 40px;
+}
+
+/*image align*/
+.left-box{position:relative; padding-top:30px;}
+.right-box{position:relative; padding-top:30px;}
+
+.container .block{
+  position: absolute;
+  bottom: 8%;
+  width: 94%;
+  }
+
+ /*image text*/ 
+  
+  .block {
+    display: block;
+    width: 100%;
+    bottom: 5rem;
+    border: none;
+    background-color: rgb(238, 167, 59);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+ 
+
+ 
